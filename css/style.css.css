@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+body {
+    background: rgb(232, 146, 27);
+    background: linear-gradient(90deg, rgba(232, 146, 27, 1) 0%, rgba(59, 81, 107, 1) 100%);
+}
+
+.board {
+    color: white;
+    background-color: black;
+    width: 600px;
+    height: 500px;
+    border-radius: 25%;
+}
+
+h1 {
+    width: 200px;
+    border-radius: 25%;
+    background: rgb(232, 146, 27);
+    background: linear-gradient(90deg, rgba(232, 146, 27, 1) 0%, rgba(59, 81, 107, 1) 100%);
+}
+
+.m {
+    position: fixed;
+    left: 20vw;
+    top: 25vh;
+    font-size: x-large;
+}
+
+.w {
+    position: fixed;
+    right: 20vw;
+    top: 25vh;
+    font-size: x-large;
+}
+
+.p {
+    font-size: x-large;
+}
+
+.year {
+    font-size: large;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    border-radius: 25%;
+    margin: 0px;
+}
+
+.chance {
+    cursor: pointer;
+    width: 300px;
+    font-size: large;
+    border-radius: 25%;
+    background: rgb(232, 146, 27);
+    background: linear-gradient(90deg, rgba(232, 146, 27, 1) 0%, rgba(59, 81, 107, 1) 100%);
+    opacity: 0;
+}
